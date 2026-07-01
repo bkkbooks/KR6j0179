@@ -1,0 +1,50 @@
+canonical_identifier: bkk:krp/KR6j0179/v1
+canonical_location: https://kanripo.org/bkk/KR6j0179/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 大方等大雲經請雨品第六十四
+  identifiers:
+    alt_id:
+    - T19n0992
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T19/T19n0992.xml
+    old_id: T19n0992
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit2
+- short: 元
+  label: 元
+  source_xml_id: wit3
+- short: 明
+  label: 明
+  source_xml_id: wit1
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0179_000.yaml, hash: 'sha256:a69fa430a2266ae7e190544d323dc1bbd8151960afd3d0b03efc97c5b564bf95'}
+  - {seq: 1, filename: KR6j0179_001.yaml, hash: 'sha256:0b824660dced1e520f84997c2aafcc344238f662024592f32571079f19e9ff01'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0179_001.markers.yaml, hash: 'sha256:427740b3a4cef4da3feec04b6d18b0db5430a5bd1d3b727e144ce4af34201104'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0179_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 7781
+  label: '大方等大雲經請雨品第六十
+
+    四'
+  type: juan
+  level: 1
+hash: sha256:0a12d9ba445b762eb5a9d0d2fbe5fbf4e646bd168c5f2e1d0f644a192b388048
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
